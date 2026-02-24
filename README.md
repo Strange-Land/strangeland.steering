@@ -16,6 +16,7 @@ Add this package to your project `Packages/manifest.json`:
     "com.strangeland.steering": "https://github.com/Strange-Land/strangeland.steering.git"
   }
 }
+```
 
 To pin a specific version/commit:
 
@@ -33,17 +34,8 @@ Open **Window → Package Manager → (select) StrangeLand Steering → Samples*
 Unity copies imported samples into `Assets/Samples/...` so you can edit them. (Unity “Samples” workflow)
 [https://docs.unity3d.com/Manual/cus-samples.html](https://docs.unity3d.com/Manual/cus-samples.html)
 
-### 1) Debug Wheel Monitor (Sample)
 
-Import **Debug Wheel Monitor** to get a minimal scene/script that logs:
-
-* steering / throttle / brake
-* button flags
-* optional force-feedback test
-
-Use this first to validate your wheel + mappings before integrating into a larger project.
-
-### 2) Logitech Steering Wheel Integration (Sample)
+### 1) Logitech Steering Wheel Integration (Sample)
 
 This package **does not ship Logitech’s SDK binaries** (they are distributed by Logitech).
 To enable Logitech wheels, import the **Logitech Steering Wheel Integration** sample and then install the SDK files below.
@@ -75,19 +67,9 @@ Assets/Plugins/Logitech/
 
 After this, press Play. The sample’s installer will register the Logitech provider.
 
-#### Provider collision safety
 
-The installer refuses to overwrite an already-installed provider (e.g., if you imported multiple wheel provider samples):
 
-```csharp
-if (!(SteeringWheelManager.Sdk is NullSteeringWheelSdk)) {
-    Debug.LogError("Steering wheel provider already set; Logitech provider will NOT install.");
-    return;
-}
-SteeringWheelManager.Sdk = new LogitechSteeringWheelSdk();
-```
-
-## Implementing other providers (e.g., DirectInput)
+## Implementing other providers 
 
 If you want support for other wheels (beyond Logitech), implement `ISteeringWheelSdk` and provide your own sample (recommended). Your provider should output normalized values:
 
@@ -140,4 +122,3 @@ static void Install()
 
 
 [1]: https://www.logitechg.com/en-my/innovation/developer-lab.html "Partner Developer Lab | Logitech G"
-[2]: https://docs.unity3d.com/6000.3/Documentation/Manual/cus-samples.html "Unity - Manual: Create samples for your package"
