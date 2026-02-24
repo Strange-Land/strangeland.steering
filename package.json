@@ -1,0 +1,33 @@
+{
+  "name": "com.strangeland.steering",
+  "version": "1.0.0",
+  "displayName": "StrangeLands Steering ",
+  "description": "For now it only supports Logitech steering wheels but we have code and plans to extend it to DirectInput, and other usb based input devises. Please add https://github.com/Strange-Land/StrangeLandPackage.git to your projects manfiest file as a dependency!",
+  "unity": "6000.3",
+  "unityRelease": "8f1",
+  "dependencies": {
+   
+  },
+  "keywords": [
+    "driving",
+    "ForceFeedback",
+    "steering wheel",
+    "input",
+    "strangeland"
+  ],
+  "author": {
+    "name": "StrangeLand Team"
+  },
+  "samples": [
+  {
+    "displayName": "Debug Wheel Monitor",
+    "description": "Simple scene and script to visualize steering wheel input (axes, buttons, force feedback) and verify provider setup.",
+    "path": "DebugSample~"
+  },
+  {
+    "displayName": "Logitech Steering Wheel Integration",
+    "description": "Installs Logitech wheel support. Requires manual download of the Logitech Steering Wheel SDK and copying the wrapper and DLL as described in the README.",
+    "path": "LogitechSample~"
+  }
+]
+}

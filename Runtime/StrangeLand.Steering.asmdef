@@ -1,0 +1,17 @@
+{
+    "name": "StrangeLand.Steering",
+    "rootNamespace": "StrangeLand.Steering",
+    "references": [
+        "GUID:4befcca3a518d2d4f8355ec405359c83",
+        "GUID:1491147abca9d7d4bb7105af628b223e"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
