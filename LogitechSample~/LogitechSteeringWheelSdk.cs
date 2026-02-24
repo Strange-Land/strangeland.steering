@@ -1,8 +1,7 @@
 using System;
 using System.Text;
 using UnityEngine;
-using StrangeLand.SteeringWheel;
-using Unity.XR.Oculus.Input;
+using StrangeLand.Steering;
 
 
 public class LogitechSteeringWheelSdk : ISteeringWheelSdk
