@@ -1,4 +1,4 @@
-using StrangeLand.SteeringWheel;
+using StrangeLand.Steering;
 using UnityEngine;
 
 public static class StrangeLandLogitechInstaller
