@@ -1,6 +1,6 @@
 using System;
 using UnityEngine;
-using StrangeLand.SteeringWheel;
+using StrangeLand.Steering;
 
 using Core.Networking;
 using UnityEngine.InputSystem;
