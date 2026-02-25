@@ -54,7 +54,7 @@ https://www.logitechg.com/en-my/programs/partner-developer-lab
 
 From the Logitech SDK, copy:
 
-* `LogitechGSDK.cs`
+* `Include/LogitechGSDK.cs`
 * `Lib/GameEnginesWrapper/x64/LogitechSteeringWheelEnginesWrapper.dll`
 
 Into your project (suggested location):
