@@ -1,8 +1,8 @@
 {
   "name": "com.strangeland.steering",
   "version": "1.0.0",
-  "displayName": "StrangeLands Steering ",
-  "description": "For now it only supports Logitech steering wheels but we have code and plans to extend it to DirectInput, and other usb based input devises. Please add https://github.com/Strange-Land/StrangeLandPackage.git to your projects manfiest file as a dependency!",
+  "displayName": "StrangeLand Steering ",
+  "description": "For now, it only supports Logitech steering wheels, but we have code and plans to extend it to DirectInput and other USB-based input devices. Please add https://github.com/Strange-Land/StrangeLandPackage.git to your projects manfiest file as a dependency!",
   "unity": "6000.3",
   "unityRelease": "8f1",
   "dependencies": {
