@@ -23,11 +23,13 @@
     "displayName": "Debug Wheel Monitor",
     "description": "Simple scene and script to visualize steering wheel input (axes, buttons, force feedback) and verify provider setup.",
     "path": "Samples~/DebugSample"
+
   },
   {
     "displayName": "Logitech Steering Wheel Integration",
     "description": "Installs Logitech wheel support. Requires manual download of the Logitech Steering Wheel SDK and copying the wrapper and DLL as described in the README.",
     "path": "Samples~/LogitechSample"
+
   }
 ]
 }
