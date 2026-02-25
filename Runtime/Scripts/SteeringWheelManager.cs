@@ -508,7 +508,7 @@ namespace StrangeLand.Steering
                 return ActiveWheels[po].HornButton;
             }
 
-            if (po == ParticipantOrder.A && Input.GetKey(KeyCode.A) && Input.GetKey(KeyCode.LeftShift))
+            /*if (po == ParticipantOrder.A && Input.GetKey(KeyCode.A) && Input.GetKey(KeyCode.LeftShift))
             {
                 return true;
             }
@@ -516,7 +516,7 @@ namespace StrangeLand.Steering
             if (po == ParticipantOrder.B && Input.GetKey(KeyCode.B) && Input.GetKey(KeyCode.LeftShift))
             {
                 return true;
-            }
+            }*/
 
             return false;
         }
